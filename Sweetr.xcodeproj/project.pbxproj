@@ -14,6 +14,11 @@
 		414191EC1B0A2C0100AD91DD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 414191EB1B0A2C0100AD91DD /* Images.xcassets */; };
 		414191EF1B0A2C0100AD91DD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 414191ED1B0A2C0100AD91DD /* LaunchScreen.xib */; };
 		414191FB1B0A2C0100AD91DD /* SweetrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414191FA1B0A2C0100AD91DD /* SweetrTests.swift */; };
+		414192051B0A375800AD91DD /* TweetsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414192041B0A375800AD91DD /* TweetsTableViewController.swift */; };
+		414192071B0A376600AD91DD /* VenuesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414192061B0A376600AD91DD /* VenuesTableViewController.swift */; };
+		414192091B0A37EB00AD91DD /* SocialData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414192081B0A37EB00AD91DD /* SocialData.swift */; };
+		4141920B1B0A381F00AD91DD /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4141920A1B0A381F00AD91DD /* Request.swift */; };
+		4141920D1B0A384400AD91DD /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4141920C1B0A384400AD91DD /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +43,11 @@
 		414191F41B0A2C0100AD91DD /* SweetrTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SweetrTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		414191F91B0A2C0100AD91DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		414191FA1B0A2C0100AD91DD /* SweetrTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SweetrTests.swift; sourceTree = "<group>"; };
+		414192041B0A375800AD91DD /* TweetsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetsTableViewController.swift; sourceTree = "<group>"; };
+		414192061B0A376600AD91DD /* VenuesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VenuesTableViewController.swift; sourceTree = "<group>"; };
+		414192081B0A37EB00AD91DD /* SocialData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocialData.swift; sourceTree = "<group>"; };
+		4141920A1B0A381F00AD91DD /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		4141920C1B0A384400AD91DD /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,12 +89,12 @@
 		414191DF1B0A2C0100AD91DD /* Sweetr */ = {
 			isa = PBXGroup;
 			children = (
-				414191E21B0A2C0100AD91DD /* AppDelegate.swift */,
-				414191E41B0A2C0100AD91DD /* FirstViewController.swift */,
-				414191E61B0A2C0100AD91DD /* SecondViewController.swift */,
+				414192081B0A37EB00AD91DD /* SocialData.swift */,
+				4141920A1B0A381F00AD91DD /* Request.swift */,
+				4141920C1B0A384400AD91DD /* Constants.swift */,
+				414192041B0A375800AD91DD /* TweetsTableViewController.swift */,
+				414192061B0A376600AD91DD /* VenuesTableViewController.swift */,
 				414191E81B0A2C0100AD91DD /* Main.storyboard */,
-				414191EB1B0A2C0100AD91DD /* Images.xcassets */,
-				414191ED1B0A2C0100AD91DD /* LaunchScreen.xib */,
 				414191E01B0A2C0100AD91DD /* Supporting Files */,
 			);
 			path = Sweetr;
@@ -93,6 +103,11 @@
 		414191E01B0A2C0100AD91DD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				414191ED1B0A2C0100AD91DD /* LaunchScreen.xib */,
+				414191E21B0A2C0100AD91DD /* AppDelegate.swift */,
+				414191E41B0A2C0100AD91DD /* FirstViewController.swift */,
+				414191E61B0A2C0100AD91DD /* SecondViewController.swift */,
+				414191EB1B0A2C0100AD91DD /* Images.xcassets */,
 				414191E11B0A2C0100AD91DD /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -215,9 +230,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				414192091B0A37EB00AD91DD /* SocialData.swift in Sources */,
 				414191E71B0A2C0100AD91DD /* SecondViewController.swift in Sources */,
+				414192051B0A375800AD91DD /* TweetsTableViewController.swift in Sources */,
 				414191E31B0A2C0100AD91DD /* AppDelegate.swift in Sources */,
+				4141920B1B0A381F00AD91DD /* Request.swift in Sources */,
+				414192071B0A376600AD91DD /* VenuesTableViewController.swift in Sources */,
 				414191E51B0A2C0100AD91DD /* FirstViewController.swift in Sources */,
+				4141920D1B0A384400AD91DD /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +433,7 @@
 				414192001B0A2C0100AD91DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		414192011B0A2C0100AD91DD /* Build configuration list for PBXNativeTarget "SweetrTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +442,7 @@
 				414192031B0A2C0100AD91DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
